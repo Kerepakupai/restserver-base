@@ -31,7 +31,7 @@ class Server {
   }
 
   routes () {
-    this.app.use(this.paths.check, require('../routes/check'))
+    this.app.use(this.paths.check, require('../components/check/checkRouter'))
   }
 
   listen () {

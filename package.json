@@ -2,10 +2,10 @@
   "name": "restserver-base",
   "version": "1.0.0",
   "description": "Restserver APP",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "node app.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "@kerepakupaiKode",
